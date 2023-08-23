@@ -28,7 +28,7 @@ Esta orden construye la aplicación minificada generando ficheros estáticos par
 Se puede servir con un servidor estático, por ejemplo con [serve][serve], podemos hacerlo pasándole el directorio `build` creado anteriormente de la siguiente manera:
 
 ```
-yarn global add serve
+npm global add serve
 serve -s build
 ```
 
